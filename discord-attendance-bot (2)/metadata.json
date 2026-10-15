@@ -1,0 +1,6 @@
+{
+  "name": "Discord Voice Attendance Bot - بوت تسجيل حضور الفويس",
+  "description": "نظام بوت ديسكورد ذكي لتسجيل الحضور والانصراف (د / خ) مع فحص تلقائي للتواجد في الفويس بعد 5 دقائق وإرسال تقرير المدة في الروم الإداري الخاص، مع محاكي تفاعلي وأكواد جاهزة للتشغيل.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

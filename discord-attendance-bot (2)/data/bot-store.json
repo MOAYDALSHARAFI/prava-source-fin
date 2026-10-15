@@ -1,0 +1,176 @@
+{
+  "config": {
+    "token": "",
+    "checkMinutes": 5,
+    "checkInCmd": "د",
+    "checkOutCmd": "خ",
+    "teams": [
+      {
+        "id": "team-scenario",
+        "name": "فريق السيناريو (Scenario Team)",
+        "color": "#5865F2",
+        "attendanceChannelId": "1559200634698342410",
+        "targetVoiceChannelId": "",
+        "logChannelId": "1559200800218022020",
+        "checkInCmd": "د",
+        "checkOutCmd": "خ",
+        "checkMinutes": 5,
+        "enabled": true,
+        "sendWarningToAttendanceChat": false
+      },
+      {
+        "id": "team-ban",
+        "name": "فريق الباند والرقابة (Ban Team)",
+        "color": "#ED4245",
+        "attendanceChannelId": "",
+        "targetVoiceChannelId": "",
+        "logChannelId": "",
+        "checkInCmd": "د",
+        "checkOutCmd": "خ",
+        "checkMinutes": 5,
+        "enabled": true
+      },
+      {
+        "id": "team-support",
+        "name": "فريق الدعم الفني (Support Team)",
+        "color": "#57F287",
+        "attendanceChannelId": "",
+        "targetVoiceChannelId": "",
+        "logChannelId": "",
+        "checkInCmd": "د",
+        "checkOutCmd": "خ",
+        "checkMinutes": 5,
+        "enabled": true
+      },
+      {
+        "id": "team-admin",
+        "name": "فريق الإدارة والمسؤولين (Admin Team)",
+        "color": "#FEE75C",
+        "attendanceChannelId": "",
+        "targetVoiceChannelId": "",
+        "logChannelId": "",
+        "checkInCmd": "د",
+        "checkOutCmd": "خ",
+        "checkMinutes": 5,
+        "enabled": true
+      },
+      {
+        "id": "team-events",
+        "name": "فريق الفعاليات (Events Team)",
+        "color": "#EB459E",
+        "attendanceChannelId": "",
+        "targetVoiceChannelId": "",
+        "logChannelId": "",
+        "checkInCmd": "د",
+        "checkOutCmd": "خ",
+        "checkMinutes": 5,
+        "enabled": true
+      }
+    ]
+  },
+  "teams": [
+    {
+      "id": "team-scenario",
+      "name": "فريق السيناريو (Scenario Team)",
+      "color": "#5865F2",
+      "attendanceChannelId": "1559200634698342410",
+      "targetVoiceChannelId": "",
+      "logChannelId": "1559200800218022020",
+      "checkInCmd": "د",
+      "checkOutCmd": "خ",
+      "checkMinutes": 5,
+      "enabled": true,
+      "sendWarningToAttendanceChat": false
+    },
+    {
+      "id": "team-ban",
+      "name": "فريق الباند والرقابة (Ban Team)",
+      "color": "#ED4245",
+      "attendanceChannelId": "",
+      "targetVoiceChannelId": "",
+      "logChannelId": "",
+      "checkInCmd": "د",
+      "checkOutCmd": "خ",
+      "checkMinutes": 5,
+      "enabled": true
+    },
+    {
+      "id": "team-support",
+      "name": "فريق الدعم الفني (Support Team)",
+      "color": "#57F287",
+      "attendanceChannelId": "",
+      "targetVoiceChannelId": "",
+      "logChannelId": "",
+      "checkInCmd": "د",
+      "checkOutCmd": "خ",
+      "checkMinutes": 5,
+      "enabled": true
+    },
+    {
+      "id": "team-admin",
+      "name": "فريق الإدارة والمسؤولين (Admin Team)",
+      "color": "#FEE75C",
+      "attendanceChannelId": "",
+      "targetVoiceChannelId": "",
+      "logChannelId": "",
+      "checkInCmd": "د",
+      "checkOutCmd": "خ",
+      "checkMinutes": 5,
+      "enabled": true
+    },
+    {
+      "id": "team-events",
+      "name": "فريق الفعاليات (Events Team)",
+      "color": "#EB459E",
+      "attendanceChannelId": "",
+      "targetVoiceChannelId": "",
+      "logChannelId": "",
+      "checkInCmd": "د",
+      "checkOutCmd": "خ",
+      "checkMinutes": 5,
+      "enabled": true
+    }
+  ],
+  "history": [
+    {
+      "id": "hist-1791984725703",
+      "userId": "1527720020182827159",
+      "userName": "fg_t6_85964",
+      "userTag": "fg_t6_85964",
+      "userAvatar": "https://cdn.discordapp.com/avatars/1527720020182827159/4e501a2feba50fd3c4cf23b63c42ea85.webp",
+      "teamId": "team-scenario",
+      "teamName": "فريق السيناريو (Scenario Team)",
+      "checkInTime": 1791984710183,
+      "checkOutTime": 1791984725703,
+      "totalShiftMs": 15520,
+      "totalVoiceMs": 0,
+      "warnCount": 0
+    }
+  ],
+  "users": [
+    {
+      "id": "user-leader-1",
+      "username": "leader",
+      "password": "123",
+      "discordUsername": "Leader#0001",
+      "discordId": "1559200634698342410",
+      "gameUsername": "LeaderOne",
+      "role": "owner",
+      "roleTitle": "👑 القائد وصاحب الموقع",
+      "permissions": {
+        "manageTeams": true,
+        "manageBot": true,
+        "viewHistory": true,
+        "clearHistory": true,
+        "manageSettings": true,
+        "manageUsers": true
+      },
+      "allowedTeamIds": [
+        "*"
+      ],
+      "createdAt": 1791894588929,
+      "lastLogin": 1792055136411
+    }
+  ],
+  "updatedAt": 1792060788684
+}
